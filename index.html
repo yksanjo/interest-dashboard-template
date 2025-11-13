@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Interest Dashboard Template</title>
+    <meta name="description" content="A lightweight starter dashboard for curating links and resources around your favorite topics." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body>
+    <main id="app" class="dashboard">
+      <header class="dashboard__header">
+        <div class="dashboard__meta">
+          <h1 id="dashboard-title">Interest Dashboard</h1>
+          <p id="dashboard-subtitle">Plug in the topics you care about.</p>
+        </div>
+        <div class="dashboard__controls">
+          <label class="toggle" for="theme-toggle">
+            <input type="checkbox" id="theme-toggle" aria-label="Toggle dark mode" />
+            <span class="toggle__track">
+              <span class="toggle__thumb"></span>
+            </span>
+            <span class="toggle__label">Dark mode</span>
+          </label>
+        </div>
+      </header>
+
+      <section id="dashboard-sections" class="dashboard__sections" aria-live="polite"></section>
+
+      <footer class="dashboard__footer">
+        <p>
+          Powered by a static configuration. Update <code>config/dashboard-config.js</code> to make it yours.
+        </p>
+      </footer>
+    </main>
+
+    <script src="./config/dashboard-config.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

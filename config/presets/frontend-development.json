@@ -1,0 +1,84 @@
+{
+  "title": "Frontend Dev Dashboard",
+  "subtitle": "Stay sharp on UI and web platform trends.",
+  "layout": {
+    "columns": 3
+  },
+  "sections": [
+    {
+      "id": "design-inspiration",
+      "title": "Design Inspiration",
+      "layout": "grid",
+      "cards": [
+        {
+          "title": "Mobbin",
+          "description": "Curated library of handpicked mobile and web UX patterns.",
+          "tags": ["UI", "Research"],
+          "primaryAction": {
+            "label": "Browse patterns",
+            "url": "https://mobbin.com/"
+          }
+        },
+        {
+          "title": "UI Sources",
+          "description": "Real product UI videos and flows for inspiration.",
+          "tags": ["UI", "Video"],
+          "primaryAction": {
+            "label": "See flows",
+            "url": "https://www.uisources.com/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "framework-updates",
+      "title": "Framework Updates",
+      "layout": "list",
+      "cards": [
+        {
+          "title": "React Docs",
+          "description": "Official React docs with the latest guides and API references.",
+          "tags": ["React"],
+          "primaryAction": {
+            "label": "Read docs",
+            "url": "https://react.dev/"
+          }
+        },
+        {
+          "title": "MDN Web Docs",
+          "description": "Canonical reference for modern web APIs and platform features.",
+          "tags": ["Web"],
+          "primaryAction": {
+            "label": "Open site",
+            "url": "https://developer.mozilla.org/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "tools-of-the-trade",
+      "title": "Tools of the Trade",
+      "layout": "grid",
+      "cards": [
+        {
+          "title": "Storybook",
+          "description": "Build, test, and document UI components in isolation.",
+          "tags": ["Components"],
+          "primaryAction": {
+            "label": "Visit",
+            "url": "https://storybook.js.org/"
+          }
+        },
+        {
+          "title": "Vite",
+          "description": "Next-generation frontend tooling with instant dev server.",
+          "tags": ["Tooling"],
+          "primaryAction": {
+            "label": "Learn more",
+            "url": "https://vitejs.dev/"
+          }
+        }
+      ]
+    }
+  ]
+}

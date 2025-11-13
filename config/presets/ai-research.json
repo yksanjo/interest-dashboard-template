@@ -1,0 +1,84 @@
+{
+  "title": "AI Research Radar",
+  "subtitle": "Fresh papers, tooling, and conversations in modern AI.",
+  "layout": {
+    "columns": 2
+  },
+  "sections": [
+    {
+      "id": "paper-digest",
+      "title": "Weekly Papers",
+      "layout": "list",
+      "cards": [
+        {
+          "title": "arXiv Sanity",
+          "description": "Andrej Karpathy's interface for filtering the arXiv firehose.",
+          "tags": ["Papers"],
+          "primaryAction": {
+            "label": "Dive in",
+            "url": "http://www.arxiv-sanity.com/"
+          }
+        },
+        {
+          "title": "Papers with Code",
+          "description": "Track state-of-the-art results with open-source implementations.",
+          "tags": ["Benchmark"],
+          "primaryAction": {
+            "label": "View leaderboard",
+            "url": "https://paperswithcode.com/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "discussion",
+      "title": "Community & Discussion",
+      "layout": "grid",
+      "cards": [
+        {
+          "title": "The Gradient Podcast",
+          "description": "Long-form conversations with AI researchers and practitioners.",
+          "tags": ["Podcast"],
+          "primaryAction": {
+            "label": "Listen",
+            "url": "https://thegradientpub.substack.com/"
+          }
+        },
+        {
+          "title": "Latent Space",
+          "description": "Practical breakdowns of AI product launches and infrastructure.",
+          "tags": ["Newsletter"],
+          "primaryAction": {
+            "label": "Subscribe",
+            "url": "https://www.latent.space/"
+          }
+        }
+      ]
+    },
+    {
+      "id": "toolbox",
+      "title": "Research Toolbox",
+      "layout": "grid",
+      "cards": [
+        {
+          "title": "Weights & Biases Sweeps",
+          "description": "Automated hyperparameter tuning at scale.",
+          "tags": ["Experimentation"],
+          "primaryAction": {
+            "label": "Explore",
+            "url": "https://wandb.ai/site/sweeps"
+          }
+        },
+        {
+          "title": "LangChain",
+          "description": "Composable framework for building with LLMs.",
+          "tags": ["Framework"],
+          "primaryAction": {
+            "label": "Get started",
+            "url": "https://langchain.com/"
+          }
+        }
+      ]
+    }
+  ]
+}
