@@ -1,5 +1,9 @@
 # Interest Dashboard Template
 
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow.svg)](https://www.javascript.com/) [![GitHub stars](https://img.shields.io/github/stars/yksanjo/interest-dashboard-template?style=social)](https://github.com/yksanjo/interest-dashboard-template/stargazers) [![GitHub forks](https://img.shields.io/github/forks/yksanjo/interest-dashboard-template.svg)](https://github.com/yksanjo/interest-dashboard-template/network/members) [![GitHub issues](https://img.shields.io/github/issues/yksanjo/interest-dashboard-template.svg)](https://github.com/yksanjo/interest-dashboard-template/issues)
+[![Last commit](https://img.shields.io/github/last-commit/yksanjo/interest-dashboard-template.svg)](https://github.com/yksanjo/interest-dashboard-template/commits/main)
+
+
 A zero-build static dashboard for curating the links, feeds, and tools you revisit most. Drop it on GitHub Pages (or any static host), edit a single config file, and you have a personalized command center that others can fork and tailor to their interests.
 
 ## Why it exists
