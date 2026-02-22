@@ -1,54 +1,77 @@
-# Interest Dashboard Template
+# interest-dashboard-template
 
 A zero-build static dashboard for curating the links, feeds, and tools you revisit most. Drop it on GitHub Pages (or any static host), edit a single config file, and you have a personalized command center that others can fork and tailor to their interests.
 
-## Why it exists
-- **Light lift**: Everything is plain HTML/CSS/JS—no bundlers, no dependencies.
-- **Config driven**: Your dashboard lives in `config/dashboard-config.js`. Copy in one of the presets or roll your own.
-- **Shareable**: Ship it as a repo template so people can fork, swap the config, and publish.
+Describe the user or business problem this project solves, the target users, and expected outcomes.
 
-## Quick start
-1. Fork or download this folder.
-2. Edit `config/dashboard-config.js` and replace the sample sections/cards with your own links.
-3. Open `index.html` in a browser or run a static server from the project root:
-   ```bash
-   npx serve
-   ```
-4. Toggle dark mode, tweak styles in `assets/css/styles.css`, and publish when ready (see below).
+## Solution Overview
 
-## Config format
-The config exposes three top-level keys.
+Summarize the architecture, core modules, and runtime behavior at a high level.
 
-- `title` / `subtitle`: Update the hero text.
-- `layout.columns`: Adjust the responsive grid density (1–4 works well).
-- `sections`: Array of sections; each section supports:
-  - `id`: Optional HTML anchor.
-  - `title`, `description`, `layout` (`grid` or `list`).
-  - `cards`: Array of resources. Each card supports:
-    - `title`, `description`, `tags` (Array of short labels).
-    - `primaryAction`: `{ label, url, openInNewTab? }`.
-    - `secondaryActions`: Array of additional actions with the same shape as `primaryAction`.
+## Key Features
 
-Use the presets under `config/presets/` as copy-paste starters (`frontend-development.json`, `ai-research.json`).
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
 
-## Customize the look
-- Update fonts, colors, or spacing in `assets/css/styles.css`.
-- Adjust the grid layout in `app.js` or the CSS `--columns` variable if you want more control per section.
-- Swap the Google Font link in `index.html` to match your brand.
+## Repository Structure
 
-## Dark mode
-A built-in toggle flips between light and dark themes. The setting persists in `localStorage`, and the initial theme honors the user’s OS preference.
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
+```
 
-## Publish it
-- **GitHub Pages**: Push to a repo, enable Pages (root + `/`), done.
-- **Netlify/Vercel**: Point to this directory, choose “static site,” and deploy with zero build steps.
-- **Local kiosk**: Save `index.html` + `config/` folder to any machine and open in a browser.
+## Getting Started
 
-## Share it onward
-For a low-effort open-source release:
-1. Rename the repo to something like `awesome-interest-dashboard`.
-2. Mark it as a template (GitHub → Settings → Template repository).
-3. Add a badge or link to your deployed demo.
-4. Invite contributions via Issues by documenting the config schema in the README.
+### Prerequisites
 
-That’s it—copy the structure, plug in your interests, and you have a useful curated dashboard with minimal maintenance overhead.
+- Git
+- Project runtime/toolchain for this repo
+
+### Local Setup
+
+```bash
+make test
+make lint
+```
+
+## Usage
+
+Document primary commands, API routes, CLI examples, or UI workflows here.
+
+## Quality Standards
+
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
