@@ -1,6 +1,11 @@
 # interest-dashboard-template
 
-A zero-build static dashboard for curating the links, feeds, and tools you revisit most. Drop it on GitHub Pages (or any static host), edit a single config file, and you have a personalized command center that others can fork and tailor to their interests.
+## Detailed Description
+
+interest-dashboard-template is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
+
+## Problem Statement
 
 Describe the user or business problem this project solves, the target users, and expected outcomes.
 
