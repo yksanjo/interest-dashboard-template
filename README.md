@@ -1,5 +1,12 @@
 # interest-dashboard-template
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/interest-dashboard-template/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/interest-dashboard-template/actions)
+![License](https://img.shields.io/github/license/yksanjo/interest-dashboard-template)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/interest-dashboard-template)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/interest-dashboard-template)
+
 ## Detailed Description
 
 interest-dashboard-template is maintained as an industry-grade software project with production-ready engineering practices.  
